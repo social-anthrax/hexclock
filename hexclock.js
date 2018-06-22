@@ -2,7 +2,7 @@
   'use strict';
 
  function hexClock() {
-    var clock = new Date();
+    /*var clock = new Date();
     var hours = clock.getHours(),
         mins = clock.getMinutes(),
         secs = clock.getSeconds();
@@ -11,7 +11,7 @@
     if(mins <= 9) mins = '0' + mins;
     if(secs <= 9) secs = '0' + secs;
 
-    /*var time = hours + ':' + mins + ':' + secs;
+    var time = hours + ':' + mins + ':' + secs;
     var color = '#' + hours + mins + secs;
     */
     color = '#bada55';
