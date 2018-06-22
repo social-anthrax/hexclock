@@ -16,10 +16,10 @@
     
     /*var color = '#bada55';*/ //system for testing if the colour contrast system works
     
-    /*document.getElementById('time').innerHTML = color;
+    document.getElementById('time').innerHTML = color;
     document.getElementById('hexColor').innerHTML = time;
     document.body.style.background = color; //changes the background colour
-    */
+    
    
     document.getElementById("time").style.color = invertColor(color); //sets the text colour of "time" to the inverse hex of "color"
     document.getElementById("hexColor").style.color = invertColor(color);
