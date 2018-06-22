@@ -14,7 +14,7 @@
     var time = hours + ':' + mins + ':' + secs;
     var color = '#' + hours + mins + secs;
     */
-    color = '#bada55';
+    var color = '#bada55';
     
     document.getElementById('time').innerHTML = color;
     document.getElementById('hexColor').innerHTML = time;
