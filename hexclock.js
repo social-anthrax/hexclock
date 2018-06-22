@@ -11,10 +11,10 @@
     if(mins <= 9) mins = '0' + mins;
     if(secs <= 9) secs = '0' + secs;
 
-    var time = hours + ':' + mins + ':' + secs;
+    /*var time = hours + ':' + mins + ':' + secs;
     var color = '#' + hours + mins + secs;
-    
-    
+    */
+    color = '#bada55';
     
     document.getElementById('time').innerHTML = color;
     document.getElementById('hexColor').innerHTML = time;
