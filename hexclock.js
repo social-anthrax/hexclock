@@ -14,21 +14,22 @@
     var time = hours + ':' + mins + ':' + secs;
     var color = '#' + hours + mins + secs;
     
-    var color = '#bada55';
+    /*var color = '#bada55';*/ //system for testing if the colour contrast system works
     
-    document.getElementById('time').innerHTML = color;
+    /*document.getElementById('time').innerHTML = color;
     document.getElementById('hexColor').innerHTML = time;
-    document.body.style.background = color;
-      
-    document.getElementById("time").style.color = invertColor(color);
+    document.body.style.background = color; //changes the background colour
+    */
+   
+    document.getElementById("time").style.color = invertColor(color); //sets the text colour of "time" to the inverse hex of "color"
     document.getElementById("hexColor").style.color = invertColor(color);
-    setTimeout(hexClock, 1000);
+    setTimeout(hexClock, 1000); //waits a sec
   }
 
-  hexClock();
+  hexClock(); //calls the function
 }());
 
-function invertColor(hex) {
+function invertColor(hex) { //function for inversing the hex code I have no idea how this works as i was pretty high on pizza
     if (hex.indexOf('#') === 0) {
         hex = hex.slice(1);
     }
