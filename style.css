@@ -21,10 +21,12 @@ html, body {
 #time {
     font-size: 20vh;
     font-family: 'Ubuntu';
+    text-align: center;
 
 }
 
 #hexColor {
     margin-top: 10vh;
     font-family: 'Ubuntu';
+    text-align: center;
 }
