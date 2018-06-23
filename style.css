@@ -10,7 +10,7 @@ html, body {
     height: 100%;
 }
 
-#hexclock {
+#hexClock {
     position: relative;
     height: 100px;
     top: 45%;
@@ -19,7 +19,7 @@ html, body {
 }
 
 #time {
-    font-size: 15vh;
+    font-size: 20vh;
     font-family: 'Ubuntu';
 
 }
